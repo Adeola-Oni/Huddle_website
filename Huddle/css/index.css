@@ -1,0 +1,238 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top{
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-color: #B4E1FF;
+    background-repeat: no-repeat;
+    background-position: cover;
+    z-index: -2;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0%;
+    padding-top: 0%;
+   
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:  space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.top_header{
+    align-items: center;
+    padding-top: 1%;
+}
+
+.bottom_header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    /* align-content:  space-between; */
+}
+
+.top_button{
+    padding: 1%;
+    background-color: white;
+    border-radius: 40px;
+    /* border-color: 10px solid white; */
+    width: 10vw;
+    border-color: transparent;
+    /* outline-color: #FF69B4; */
+    box-shadow:0 0 10px rgb(253, 253, 253);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+}
+
+.header_img{
+    /* width: 100vw;
+    height: 100vh; */
+    /* size: 50%; */
+}
+
+.header_h2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 3%;
+    /* letter-spacing: 5px; */
+}
+
+.header_p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* letter-spacing: 1px; */
+    color: #575A5E;
+}
+.bottom_header_item{
+    align-self: center;
+    width: 50vw;
+}
+.item_1{
+    padding-right: 3%;
+}
+.bottom_button{
+    padding: 2%;
+    background-color: #FF69B4;
+    border-radius: 40px;
+    border-color: transparent;
+    /* outline-color: #FF69B4; */
+    width: 15vw;
+    color: white;
+    box-shadow:0 0 10px #FF69B4;
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+}
+
+.first_box{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:  space-between;
+    background-color: white;
+    box-shadow:0 0 10px rgba(211, 210, 210, 0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius: 20px;
+}
+
+.first_box_item1{
+    align-self: center;
+    width: 100vw;
+    padding-right: 15%;
+    padding-left: 5%;
+    
+}
+.first_box_item1_p{
+    color: #575A5E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first_box_item1_h2{
+    /* font-size: 20px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first_box_item2{
+    align-self: center;
+    width: 20vw;
+    height: auto;
+}
+
+
+.second_box{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:  space-between;
+    background-color: white;
+    box-shadow:0 0 10px rgba(211, 210, 210, 0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius: 20px;
+}
+
+.second_box_item1{
+    align-self: center;
+    width: 20vw;
+    height: auto; 
+}
+.second_box_item1_p{
+    color: #575A5E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.second_box_item1_h2{
+    /* font-size: 20px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.second_box_item2{
+    align-self: center;
+    padding-left: 15%;
+    padding-right: 5%; 
+    margin-top: 0%;
+}
+
+.footer{
+    background-color: rgb(29, 26, 61);
+    color: white;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: -3%; */
+}
+
+.footer_item ul{
+    list-style-type: none;
+}
+
+.footer_item li{
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item_1{
+    width: 40vw;
+}
+
+.item_2{
+    width: 20vw;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_box{
+    /* width: 30vw; */
+    margin:auto;
+    position:relative;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: -3%;
+    z-index: 10;
+    background-color: white;
+    box-shadow:0 0 10px rgba(241, 240, 240, 0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+}
